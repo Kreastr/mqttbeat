@@ -17,7 +17,7 @@ type Config struct {
 
 // DefaultConfig will be used if no config file is founded
 var DefaultConfig = Config{
-	BrokerURL:       "tcp://localhost:1883",
+	BrokerURL:       "ssl://localhost:1883",
 	BrokerUsername:	 "",
 	BrokerPassword:	 "",
 	TopicsSubscribe: []string{"/test/mqttbeat/#?1"},
